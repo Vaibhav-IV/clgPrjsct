@@ -1,0 +1,51 @@
+<p>products works!</p>
+<section>
+    <div class="spacer">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-lg-9">
+            <div class="row shop-listing">
+              <div class="col-lg-4" *ngFor="let product of products">
+                <div class="card shop-hover border-0">
+                  <img [src]="'http://localhost:5000/' + product.title" alt="wrapkit" class="img-fluid" />
+                  <div class="card-img-overlay align-items-center">
+                    <button class="btn btn-md btn-info" (click)="_addItemToCart(product.id, 1)">Add to Cart</button>
+                  </div>
+                </div>
+                <div class="card border-0">
+                  <h6>
+                    <a href="#" class="link">{{ product.title }}</a>
+                  </h6>
+                  <h6 class="subtitle">by Wisdom</h6>
+                  <h5 class="font-medium m-b-30">
+                    {{product.author}}
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="container">
+    <div class="row">
+        <mat-card class="example-card" *ngFor="let prd of products">
+          <mat-card-title-group>
+            <mat-card-title>{{ prd.id }}</mat-card-title>
+            <mat-card-subtitle>{{ prd.title }}</mat-card-subtitle>
+            <img mat-card-sm-image
+              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fjewellery&psig=AOvVaw1YEGSSamyt_QaiUFJ10V62&ust=1665660713044000&source=images&cd=vfe&ved=0CAwQjRxqGAoTCPDeu-3L2voCFQAAAAAdAAAAABCTAw">
+          </mat-card-title-group>
+          <mat-card-content>
+            {{ prd.author }}
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-button color="primary" (click)="_addItemToCart(prd.id, 1)">Add to cart</button>
+          </mat-card-actions>
+        </mat-card>
+    </div>
+  </div>
+  <router-outlet></router-outlet>

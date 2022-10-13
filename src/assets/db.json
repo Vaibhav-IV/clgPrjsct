@@ -1,0 +1,110 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 3,
+      "title": "json-sfviojzofijverver",
+      "author": "typicode"
+    },
+    {
+      "id": 4,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 5,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 6,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 7,
+      "title": "json-server",
+      "author": "typsdvoihdvpicode"
+    },
+    {
+      "id": 8,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 9,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 10,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signupUsersList": [
+    {
+      "email": "bolu@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "signup": [
+    {
+      "fname": "Manoj",
+      "lname": "Adhikari",
+      "email": "manojadhikari@gmail.com",
+      "phone": "234324234",
+      "password": "asdasdf",
+      "id": 1
+    },
+    {
+      "fname": "shivam",
+      "lname": "adhikari",
+      "email": "shivamadhikari@gmail.com",
+      "phone": "32432",
+      "password": "asdf",
+      "id": 2
+    },
+    {
+      "fname": "Vaibhav",
+      "lname": "Bhattad",
+      "email": "vaugx@gmial.com",
+      "phone": "5111498498",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "fname": "Ojas",
+      "lname": "Phokhmare",
+      "email": "ojas@gmail.com",
+      "phone": "123654999",
+      "password": "123456789",
+      "id": 4
+    },
+    {
+      "fname": "Vaibhav",
+      "lname": "Bhattad",
+      "email": "shys@gmail.cmom",
+      "phone": "651961",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "fname": "Vaibhav",
+      "lname": "Bhattad",
+      "email": null,
+      "phone": "Ojas",
+      "password": "123456789",
+      "id": 6
+    }
+  ]
+}
